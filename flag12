@@ -1,0 +1,4 @@
+in upload page
+we can upload a file but only jpeg is authorized
+we can see request payload in firefox and change content-type to image/jpeg with a php file
+The flag is : 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
