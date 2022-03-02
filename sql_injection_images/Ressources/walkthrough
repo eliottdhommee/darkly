@@ -10,3 +10,6 @@ columns are id url title comment
 If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46
 md5 decode albatroz
 
+
+possible solution:
+use prepared sql queries so the data sent by the user doesn't mess with the sql query

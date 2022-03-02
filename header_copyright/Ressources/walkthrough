@@ -17,3 +17,6 @@ curl -X GET \
 		 -H 'user-agent: ft_bornToSec' | grep flag
 
 and get the flag
+
+possible solution:
+use ssl and secured http header
