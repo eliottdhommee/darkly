@@ -1,0 +1,6 @@
+in the cookies we can see i_am_admin is set to md5(false)
+we pass the MD5 of true
+connect to home
+
+possible resolution
+set server generated token

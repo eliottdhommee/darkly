@@ -1,0 +1,6 @@
+in /?page=recover
+<input type="hidden" name="mail" value="webmaster@borntosec.com" maxlength="15">
+change mail to get the flag
+
+possible resolution
+put the mail server side

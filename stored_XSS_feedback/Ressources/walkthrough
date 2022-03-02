@@ -1,0 +1,8 @@
+in /?page=feedback
+we have two input fields
+in comment we put "<script>alert(1)</script>"
+and a name
+we get the flag
+
+possible resolution
+parse and escape all data users can send

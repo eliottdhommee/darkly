@@ -1,0 +1,14 @@
+in /.hidden/
+we can see 26 folders with random names, in each folders there are another 26 folders
+and in those again 26 folders
+in each folders there is a README with a taunt phrase
+we can make a wget to dowload all the folders and files
+
+wget -r -np -nH -e robots=off -R index.html,index.html.tmp http://192.168.56.101/.hidden/
+
+we then cat all files with a grep to exclude all taunt phrases
+
+cat whtccjokayshttvxycsvykxcfm/*/*/README* | grep -v -e "Demande à ton voisin d" -e "Tu veux de l'aide ? Moi aussi !" -e "Non ce n'est toujours pas bon ..." -e "Toujours pas tu vas craquer non ?" for all folders
+
+in /.hidden/whtccjokayshttvxycsvykxcfm/igeemtxnvexvxezqwntmzjltkt/lmpanswobhwcozdqixbowvbrhw
+cat README

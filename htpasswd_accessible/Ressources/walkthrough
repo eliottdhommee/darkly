@@ -1,0 +1,5 @@
+in /whatever/
+with the robot.txt file we can see a /whatever and /admin
+we can see htpasswd file with "root:8621ffdbc5698829397d97767ac13db3" in it
+decypher md5 password is dragon
+on /admin user=root pass=dragon
