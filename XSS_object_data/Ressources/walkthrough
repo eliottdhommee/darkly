@@ -5,3 +5,7 @@ we can put some code in the source but raw code doesn't work
 we can pass this encoded in base64 to get the flag
 <script>alert("Hello");</script>
 http://192.168.56.101/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4=
+
+possible solution:
+use a database for medias
+parse end escape data sent by user

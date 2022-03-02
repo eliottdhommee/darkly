@@ -1,3 +1,7 @@
 in /?page=upload
 we can upload a file but only jpeg is authorized
 we can see request payload in firefox and change content-type to image/jpeg with a php file
+
+possible solution:
+check server side the extension and mime type
+check metadata of file

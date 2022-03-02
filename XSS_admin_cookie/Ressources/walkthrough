@@ -3,4 +3,6 @@ we pass the MD5 of true
 connect to home
 
 possible resolution
-set server generated token
+use httponly cookies
+use https
+set server generated token limited in time
